@@ -1,14 +1,15 @@
 ---
 name: DBIx-Custom-Basic
-version: 0.0101
+version: 0.0201
 author:
   - 'Yuki Kimoto <kimoto.yuki@gmail.com>'
-abstract: DBIx::Custom basic class
+abstract: DBIx::Custom basic implementation
 license: perl
 resources:
   license: ~
 requires:
   DBIx::Custom: 0.0101
+  Encode: 0
 build_requires:
   Test::More: 0
 recommends:
@@ -16,7 +17,7 @@ recommends:
 provides:
   DBIx::Custom::Basic:
     file: lib/DBIx/Custom/Basic.pm
-    version: 0.0101
+    version: 0.0201
 generated_by: Module::Build version 0.31012
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html

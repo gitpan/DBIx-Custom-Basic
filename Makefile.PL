@@ -8,7 +8,8 @@ WriteMakefile
           'VERSION_FROM' => 'lib/DBIx/Custom/Basic.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
-                           'DBIx::Custom' => '0.0101'
+                           'DBIx::Custom' => '0.0101',
+                           'Encode' => 0
                          }
         )
 ;
